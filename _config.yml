@@ -1,0 +1,35 @@
+title: Hello, world! I'm Andrew Pedley
+description: > # this means to ignore newlines until "baseurl:"
+  Posts about Javascript, Angular, React, HTML, Web Development
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.andrewpedley.com" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Andrew Pedley
+author-img: ap.jpg
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning.
+twitter: thechorkpop
+facebook: false
+github: apedley
+linkedin: apedley
+email: andrew@andrewpedley.com
+
+# Disqus
+discus-identifier: blog-andrewpedley-com
+
+# Tracker
+analytics: UA-111767047-1
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
